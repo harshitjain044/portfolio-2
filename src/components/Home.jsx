@@ -17,8 +17,8 @@ export default function Home() {
             Hi, I’m <span className="text-red-700">Harshit Jain</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-xl">
-            A passionate <span className="font-semibold">Frontend Developer</span> exploring
-            full-stack development. I love building clean, modern, and scalable
+            A passionate <span className="font-semibold">Full-Stack Developer</span> exploring
+            Artificial intelligence. I love building clean, modern, and scalable
             web applications that provide smooth user experiences.
           </p>
           <div className="flex flex-wrap justify-center md:justify-start gap-4">

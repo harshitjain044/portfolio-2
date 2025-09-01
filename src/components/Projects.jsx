@@ -2,53 +2,34 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Task Manager App",
-    description: "A full-featured task manager with add, edit, delete, and complete functionality. Built with React, Tailwind, and LocalStorage.",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    link: "https://github.com/yourusername/task-manager",
+    title: "Movies Finder App",
+    description:"Responsive React app using TMDB API to search movies, view details, and manage favorites with dark/light mode and dynamic routing.",
+    tech: ["React","Tailwindcss", "API", "Router"],
+    github: "https://github.com/harshitjain044/Movie_finder",
+    live : "https://moviesearch044.netlify.app"
   },
   {
-    title: "Weather App",
-    description: "A real-time weather application that fetches data from OpenWeather API with location-based search.",
-    tech: ["React", "API", "CSS"],
-    link: "https://github.com/yourusername/weather-app",
+    title: "Todo Manager App",
+    description: "A full-featured todo manager with add, edit, delete, and complete functionality. Built with React, Tailwind, and LocalStorage .",
+    tech: ["React", "Tailwindcss", "Framer Motion", "LocalStorage"],
+    github: "https://github.com/harshitjain044/Todo",
+    live : "https://tod0-site.netlify.app"
   },
   {
-    title: "Portfolio Website",
-    description: "Your personal responsive portfolio website with modern design and animations.",
-    tech: ["React", "Tailwind", "Router"],
-    link: "https://github.com/yourusername/portfolio",
+    title: "Spotify Clone",
+    description: "A Spotify web app clone with user authentication, music playback, and playlist management using React, Tailwind, and Spotify API.",
+    tech: ["React", "Tailwindcss", "Spotify API", "Nodejs", "Express"],
+    github: "https://github.com/harshitjain044/Spotify_Clone",
+    live : "https://spotifycloneharshit.netlify.app"
   },
   {
-    title: "Portfolio Website",
-    description: "Your personal responsive portfolio website with modern design and animations.",
-    tech: ["React", "Tailwind", "Router"],
-    link: "https://github.com/yourusername/portfolio",
+    title: "Task assigning web app ",
+    description: "Task management web app with user authentication, CRUD operations, and REST APIs for seamless task assignment and tracking.",
+    tech: ["React", "Tailwind", "Router", "Nodejs", "Express", "MongoDB", "JWT"],
+    github: "https://github.com/yourusername/portfolio",
+    live : "https://yourportfolio.com"
   },
-  {
-    title: "Portfolio Website",
-    description: "Your personal responsive portfolio website with modern design and animations.",
-    tech: ["React", "Tailwind", "Router"],
-    link: "https://github.com/yourusername/portfolio",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Your personal responsive portfolio website with modern design and animations.",
-    tech: ["React", "Tailwind", "Router"],
-    link: "https://github.com/yourusername/portfolio",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Your personal responsive portfolio website with modern design and animations.",
-    tech: ["React", "Tailwind", "Router"],
-    link: "https://github.com/yourusername/portfolio",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Your personal responsive portfolio website with modern design and animations.",
-    tech: ["React", "Tailwind", "Router"],
-    link: "https://github.com/yourusername/portfolio",
-  },
+
   // 👉 Add as many more as you want, will scroll instead of stretching
 ];
 

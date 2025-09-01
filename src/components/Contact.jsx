@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react"; // or use react-icons
+import { Mail, Phone, MapPin, Github, Linkedin, Instagram } from "lucide-react"; // or use react-icons
 
 export default function Contact() {
   return (
@@ -20,7 +20,9 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <Mail className="w-6 h-6 text-red-700" />
-                <span>harshitjain9908@gmail.com</span>
+                <a href="mailto:harshitjain9908@gmail.com" className="hover:text-red-700">
+            Harshitjain9908@gmail.com
+          </a>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-6 h-6 text-red-700" />
@@ -49,6 +51,14 @@ export default function Contact() {
                 className="text-gray-700 hover:text-red-700 transition"
               >
                 <Linkedin className="w-7 h-7" />
+              </a>
+              <a
+                href="https://www.instagram.com/_harshit_040?igsh=MTRzMXJ4dGs1amFzYw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-700 hover:text-red-700 transition"
+              >
+                <Instagram className="w-7 h-7" />
               </a>
             </div>
           </div>

@@ -46,7 +46,7 @@ function Header() {
                 </div>
                 <div className='text-[#1C352D]  flex gap-6 font-semibold text-xl'>
                     <a
-                        href = "https://drive.google.com/file/d/1ekad4pHk0vWd-0DyMGqSiUjCiiefm5sw/view"
+                        href = "https://www.canva.com/design/DAGudvwkBfg/maBYMu5wV3LqjnBVYAzQnA/edit?utm_content=DAGudvwkBfg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                         target="_blank"
                         rel="noopener noreferrer"
                         className='border-2 border-orange-700 px-4 py-1 rounded-2xl hover:bg-orange-700 hover:text-white duration-200'

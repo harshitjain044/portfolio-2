@@ -3,61 +3,27 @@ import { Briefcase } from "lucide-react"; // or use react-icons if you prefer
 
 const experiences = [
   {
-    role: "Frontend Developer Intern",
-    company: "Tech Solutions Pvt Ltd",
-    duration: "Jan 2024 - Apr 2024",
+    role: "Generative AI Internship Program",
+    company: "CSRBOX, New Delhi",
+    duration: "July 2024 – Aug 2025",
     description:
-      "Worked on building responsive UIs using React, TailwindCSS, and integrated REST APIs for dynamic data.",
+      "Completed a certified 2-month internship in Generative AI. Learned to build LLM-based applications and worked on a final team chatbot project.",
   },
   {
-    role: "Freelance Web Developer",
-    company: "Self Employed",
-    duration: "2023 - Present",
+    role: "Full Stack Web Development Course",
+    company: "Angela Yu - Udemy",
+    duration: "july 2025 - Sept 2025",
     description:
-      "Developed custom websites for small businesses, focusing on modern design, performance, and SEO optimization.",
+      "Completed an extensive MERN stack course covering end-to-end web development. Built real-world projects and mastered both frontend and backend skills.",
   },
   {
-    role: "Open Source Contributor",
-    company: "GitHub Projects",
-    duration: "2022 - Present",
+    role: "Hackathon Participation",
+    company: "Hacknovate 6.0, Vihaan 8.0, Hackwave X25",
+    duration: "Feb 2025 – Apr 2025",
     description:
-      "Contributed to open-source React libraries, fixed bugs, and added documentation to improve community projects.",
+      "Actively participated in multiple national-level hackathons. Collaborated with cross-functional teams to brainstorm and develop innovative tech-based solutions under tight deadlines. Gained real-world exposure to teamwork, ideation, and rapid development.",
   },
-  {
-    role: "Open Source Contributor",
-    company: "GitHub Projects",
-    duration: "2022 - Present",
-    description:
-      "Contributed to open-source React libraries, fixed bugs, and added documentation to improve community projects.",
-  },
-  {
-    role: "Open Source Contributor",
-    company: "GitHub Projects",
-    duration: "2022 - Present",
-    description:
-      "Contributed to open-source React libraries, fixed bugs, and added documentation to improve community projects.",
-  },
-  {
-    role: "Open Source Contributor",
-    company: "GitHub Projects",
-    duration: "2022 - Present",
-    description:
-      "Contributed to open-source React libraries, fixed bugs, and added documentation to improve community projects.",
-  },
-  {
-    role: "Open Source Contributor",
-    company: "GitHub Projects",
-    duration: "2022 - Present",
-    description:
-      "Contributed to open-source React libraries, fixed bugs, and added documentation to improve community projects.",
-  },
-  {
-    role: "Open Source Contributor",
-    company: "GitHub Projects",
-    duration: "2022 - Present",
-    description:
-      "Contributed to open-source React libraries, fixed bugs, and added documentation to improve community projects.",
-  },
+
 ];
 
 export default function Experience() {
